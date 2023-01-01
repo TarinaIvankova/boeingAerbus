@@ -11,3 +11,433 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.component {
+  display: flex;
+  justify-content: space-between;
+}
+.lozung {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 90px;
+}
+.sertif {
+  margin-top: -10px;
+}
+h1 {
+  font-size: 100px;
+  margin-top: 130px;
+  color: #6777FF;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+h2 {
+  font-size: 50px;
+  margin-top: -40px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.word {
+  color: #6777FF;
+}
+h3 {
+  font-size: 35px;
+  margin-top: -50px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.men {
+  margin-right: 0;
+margin-top: 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  position: fixed;
+  margin-top: 0;
+  width: 100%;
+  background-color: #6777FF;
+}
+.Link {
+  padding: 5px 40px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
+}
+.tel {
+  color: #ffffff;
+}
+.avia {
+  margin-top: 100px;
+}
+.PAvia {
+  margin-top: 70px;
+font-size: 35px;
+color: #03008D;
+text-transform: uppercase;
+}
+.where {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.showMore {
+  width: 500px;
+}
+.btnShowMore{
+border: none;
+font-family: 'IBM Plex Serif', serif;
+font-size: 25px;
+color: #03008D;
+font-style: italic;
+}
+p {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 20px;
+}
+.differences{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -100px;
+}
+.aviatrenagor {
+  display: flex;
+  padding: 30px;
+}
+.aviatrenagorText {
+margin-left: 50px;
+  padding: 30px;
+  color: #2d40ee;
+}
+.airbus, .airbus2 {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-top: -85px;
+}
+.frame {
+  margin-top: -270px;
+}
+h4 {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 20px;
+  margin-top: -20px;
+  color: #384bf5;;
+}
+.reviews {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+button{
+border: none;
+background-color: #ffffff;
+
+}
+.child {
+  display: flex;
+ justify-content: center;
+  width: 800px;
+}
+.photo {
+  margin-left: 20px;
+}
+.textReview {
+  margin-top: 20px;
+}
+.review {
+  font-size: 15px;
+  font-family: 'IBM Plex Serif', serif;
+  padding: 25px;
+  color: #2d40ee;
+}
+.review2 {
+  font-size: 20px;
+  font-family: 'IBM Plex Serif', serif;
+  color: #2d40ee;
+}
+.photo {
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.oblako {
+  margin-bottom: 110px;
+}
+.oblako2 {
+  margin-bottom: 180px;
+}
+.oblako3 {
+  margin-top: 180px;
+}
+.oblako4 {
+  margin-top: 220px;
+margin-left: -30px;
+}
+.adres {
+  margin-top: 50px;
+}
+.contactDiv {
+  margin-top: -120px;
+}
+.downsite {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+.footer {
+  margin-top: -85px;
+}
+
+@media all and (max-width:800px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+  }
+  .Link {
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-right: 5px;
+  }
+
+  .component {
+    display: flex;
+flex-direction: column;
+align-items: center;
+  }
+  .lozung {
+    margin-left: 40px;
+  }
+  .menPhoto {
+width: 100%;
+margin-right: 0px;
+border-radius: 20px;
+  }
+ 
+  .oblaka {
+    display: none;
+  }
+  h1 {
+    font-size: 70px;
+    margin-top: 130px;
+    color: #6777FF;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  h2 {
+    font-size: 40px;
+    margin-top: -20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  h3 {
+    font-size: 30px;
+    margin-top: -20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
+  .aviatrenagorPhoto {
+    width: 600px;
+  }
+  .aviatrenagor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .aviatrenagorText {
+  margin-left: 50px;
+    padding: 30px;
+    color: #2d40ee;
+  }
+  .PAvia {
+    margin-top: 40px;
+  font-size: 35px;
+  }
+  .where {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+  .whereDom {
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .showMore {
+    width: 350px;
+  }
+  .pricePhoto {
+    width: 700px;
+  }
+  .differences{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+  }
+  h4 {
+    font-size: 14px;
+    margin-top: -20px;
+  }
+  .airbus, .airbus2 {
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -115px;
+  }
+  .frame {
+    margin-top: -180px;
+  }
+  .framePhoto {
+    height: 150px;
+  }
+ 
+  .footer {
+   display: none;
+  }
+}
+@media all and (max-width:400px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+  }
+  .Link {
+    padding: 5px 1px;
+    font-size: 10px;
+    margin-right: 5px;
+  }
+  .logotip {
+    margin-left: 42%;
+  }
+ 
+  .lozung {
+    margin-left: 20px;
+    margin-top: 170px;
+  }
+  .PAvia {
+    margin-top: 40px;
+  font-size: 20px;
+  }
+  .aviatrenagorPhoto {
+    width: 350px;
+  }
+  .aviatrenagorText {
+  margin-left: 20px;
+    padding: 30px;
+    font-size: 15px;
+  }
+  .where {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+    margin-top: 70px;
+  }
+  .whereDom {
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .showMore {
+    width: 300px;
+  }
+  .frame {
+    margin-top: -90px;
+  }
+ .framePhoto {
+  height: 70px;
+ }
+  .pricePhoto {
+    width: 360px;
+  }
+  .differences{
+    margin-top: 20px;
+  }
+  h4 {
+    font-size: 10px;
+    margin-top: -20px;
+  }
+  .airbus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  margin-top: -60px;
+  }
+  .airbus2 {
+    display: none;
+  }
+  .photo {
+    width: 150px;
+    margin-left: 20px;
+  }
+  .textReview {
+    margin-top: 20px;
+  }
+  .review {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .review2 {
+    font-size: 10px;
+  }
+  .reviewsForTel{
+    display: flex;
+    flex-direction: column;
+  }
+  .photo {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: 10%;
+  }
+  .oblako {
+    margin-bottom: 30px;
+  }
+  .alina {
+    margin-top: 30px;
+  }
+  .oblako2 {
+    margin-bottom: 30px;
+  }
+  .contactDiv {
+    margin-top: -140px;
+  }
+  .oblako3 {
+  width: 50px;
+  height: 25px;
+  }
+}
+@media all and (max-width:324px) {
+  .airbus {
+  margin-top: -60px;
+  }
+  .frame {
+    margin-top: -70px;
+  }
+  .framePhoto {
+    height: 70px;
+   }
+   .showMore {
+    width: 280px;
+  }
+  p {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  .aviatrenagorPhoto {
+    width: 280px;
+  }
+  .pricePhoto {
+    width: 280px;
+  }
+  .whereDom {
+    width: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .contactDiv {
+    margin-top: 0px;
+  }
+  .oblako3 {
+    display: none;
+  }
+}
