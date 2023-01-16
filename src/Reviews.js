@@ -38,7 +38,7 @@ function Reviews (){
             <div className='child'>
             <button onClick={previousPerson}><img src={strelkaNazad} width="50px" alt="previous"/></button>
             <div className='reviewsForTel'>
-                <div>
+                <div className='photoWomen'>
                 <img className='photo' src={image} width="300px" alt="avia"/>
                 </div>
                 <div className='textReview'>

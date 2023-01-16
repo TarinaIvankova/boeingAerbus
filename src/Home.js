@@ -1,16 +1,15 @@
 
-import './index.css';
-import Menu from './Menu';
+import './App.css';
+
 import Up from './Up';
 import Avia from './Avia';
 import Reviews from './Reviews';
 import Instructor from './Instructor';
 import Contact from './Contact';
 
-function App() {
+const Home = () => {
   return (
     <div className="App">
-      <Menu/>
      <Up/>
      <Avia/>
      <Reviews/>
@@ -20,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
