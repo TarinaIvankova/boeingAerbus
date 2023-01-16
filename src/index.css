@@ -306,6 +306,126 @@ border-radius: 20px;
    display: none;
   }
 }
+@media all and (max-width:500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+  }
+  .Link {
+    padding: 5px 1px;
+    font-size: 10px;
+    margin-right: 5px;
+  }
+  .logotip {
+    margin-left: 42%;
+  }
+ 
+  .lozung {
+    margin-left: 20px;
+    margin-top: 170px;
+  }
+  .PAvia {
+    margin-top: 40px;
+  font-size: 20px;
+  }
+  .aviatrenagorPhoto {
+    width: 350px;
+  }
+  .aviatrenagorText {
+  margin-left: 20px;
+    padding: 30px;
+    font-size: 15px;
+  }
+  .where {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+    margin-top: 70px;
+  }
+  .whereDom {
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .showMore {
+    width: 300px;
+  }
+  .frame {
+    margin-top: -90px;
+  }
+ .framePhoto {
+  height: 70px;
+ }
+  .pricePhoto {
+    width: 360px;
+  }
+  .differences{
+    margin-top: 20px;
+  }
+  h4 {
+    font-size: 10px;
+    margin-top: -20px;
+  }
+  .airbus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  margin-top: -60px;
+  }
+  .airbus2 {
+    display: none;
+  }
+  .photo {
+    display: flex;
+    width: 230px;
+    margin-left: 20px;
+  }
+  .textReview {
+    margin-top: 20px;
+  }
+  .review {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .review2 {
+    font-size: 10px;
+  }
+  .reviewsForTel{
+    display: flex;
+    flex-direction: column;
+  }
+  .photo {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: 10%;
+  }
+  .oblako {
+    margin-bottom: 30px;
+  }
+  .vadim, .alina {
+    width: 300px;
+    margin-left: 30px;
+  }
+  .alina {
+    margin-top: 30px;
+  }
+  .oblakoPrice{
+    width: 150px;
+    margin-left: 60px;
+  }
+  .oblako2 {
+    margin-bottom: 30px;
+  }
+  .contactDiv {
+    margin-top: -140px;
+  }
+  .oblako3 {
+  width: 50px;
+  height: 25px;
+  }
+}
 @media all and (max-width:400px) {
   nav {
     display: flex;
@@ -359,6 +479,10 @@ border-radius: 20px;
  }
   .pricePhoto {
     width: 360px;
+  }
+  .oblakoPrice{
+    width: 150px;
+    margin-left: 30px;
   }
   .differences{
     margin-top: 20px;
